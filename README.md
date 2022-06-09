@@ -1,30 +1,9 @@
 ANALISIS DEL COVID 19 - USANDO MODELOS ARIMA DE SERIES DE TIEMPO - AMPLIACIÓN DEL ARTICULO
 =================
 
-An OHDSI study repository is expected to have a README.md file where the header conforms to a standard. A template README file is provided here:
+[this page](badgesMarkdownCode.md)
 
-**[README file template](templateREADME.md)**
-
-When initiating a repository, please copy this file, rename it to 'README.md', and fill in the fields as appropriate.
-
-The information in the repository README file will be used to automatically update the [list of OHDSI research studies](https://data.ohdsi.org/OhdsiStudies/), so it is important to fill in the template accurately, and keep it up-to-date.
-
-## Elements in the README template
-
-| Element | Description |
-| ------- | ----------- |
-| [Study title]      | A meaningful title of the research project.            
-| Study status badge | A badge indicating the study status. See [below](#study-status) for valid options. |
-| Analytics use case | One or more analytics use cases included in the study (in a comma-separated list). See [below](#analytics-use-cases) for valid options. |
-| Study type | The type of study. See [below](#study-types) for valid options. |
-| Tags | Zero, one, or more additional keywords that can be used to filter the list of studies. The list of tags is not restricted, but be conservative in making up new tags. For example: `EHDEN` to identify studies that are part of the [EHDEN project](https://www.ehden.eu/). |
-| Study lead | The name of the study lead.|
-| Study lead forums tag | The OHDSI forums tag of the study lead, which can be used to contact the lead. It is recommended to make this a hyperlink to lead's forums profile |
-| Study start date | When did work on the study commence? This date typically indicates when development of the protocol was initiated. Format: [Month] [Day], [Year] (e.g. May 1, 2019)|
-| Study end date | When was the study completed? This typically indicates when the analyses were completed and the results have been collected. Do not enter future (planned) dates here. Format: [Month] [Day], [Year] (e.g. May 1, 2019)| 
-| Protocol | A hyperlink to the protocol. The protocol is expected to be a document in the study repository itself. | 
-| Publications | Zero, one or more hyperlinks to papers produced as part of the study (comma-separated). | 
-| Results explorer | A hyperlink to a web app (e.g. a Shiny app) where the results of the study can be explored. |
+El covid-19 provocó una pandemia que afectó en escala global al mundo desde diciembre de 2019. A nivel mundial, la investigación se ha centrado en cuestiones como la detección, prevención, mitigación y predicción de sus causas y consecuencias. Se han realizado diversos estudios limitados a zonas geográficas, países o situaciones específicas, así como modelizaciones globales. Los modelos creados en los estudios fueron capaces de proporcionar información sobre el progreso de la pandemia y los resultados a los que conducirá (Benvenuto, 2020). La visión analítica obtenida permitió a los gobiernos tomar decisiones más precisas y hacer planes para el futuro (Fang Y. N., 2020). El conocimiento previo de las próximas cifras de infecciones también ayudó a controlar la ansiedad, sobre la pandemia. Este estudio proporciona un análisis de la propagación del COVID-19 en cinco países, durante un periodo de cinco meses, de marzo a julio de 2020. El análisis muestra una tendencia similar para todo el mundo. Los países que pueden asociarse con la región geográfica y las similitudes de población se estudiaron utilizando el modelo de series temporales de media móvil autorregresiva (ARIMA). Los resultados del análisis del modelo ARIMA mostraron que el modelo resultaba preciso para las previsiones a corto plazo, mientras que las previsiones mensuales o anuales presentaban grandes errores. Se observó que el margen de error en el análisis de los casos de COVID-19 basado en los países aumentaba para el largo plazo; hasta un punto en que no se podía hacer una previsión satisfactoria. La actualización frecuente del modelo con nuevos datos dio resultados con errores muy pequeños. Se puede concluir que el modelo ARIMA es capaz de dar cifras precisas de previsión a corto plazo con muy pocos errores, sobre la pandemia COVID-19.
 
 ### Study Status
 
@@ -32,28 +11,14 @@ Choose one of the following options:
 
 | Badge             | Description                          |
 | ----------------- | ------------------------------------ |
-| <img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created"> | The study repository has just been created. Work has not yet commenced. | 
-| <img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started"> | A first commit was made (to something else than the README file). Work has commenced. |
 | <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | The protocol and study code have been finalized. | 
-| <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available"> | The study results are publicly available, for example in a paper or results explorer app. | 
-| <img src="https://img.shields.io/badge/Study%20Status-Complete-orange.svg" alt="Study Status: Complete"> | The study is complete, no further dissemination planned. | 
-| <img src="https://img.shields.io/badge/Study%20Status-Suspended-red.svg" alt="Study Status: Suspended"> | The study has been suspended, and may or may not be continued at a later point in time. | 
 
-Copy the relevant markdown code from [this page](badgesMarkdownCode.md), and paste it in your README file, just below the study title.
+### Caso de uso del análisis
 
-### Analytics Use Cases
+- `Series de Tiempo - Modelos ARIMA + Pruebas de Dickey Fuller`
 
-Choose one or more options from: 
+### Tipo de estudio
 
-- `Characterization`
-- `Population-Level Estimation`, or
-- `Patient-Level Prediction` 
+- identificar el modelo apropiado para una serie de tiempo
 
-See [the Data Analytics Use Cases chapter](https://ohdsi.github.io/TheBookOfOhdsi/DataAnalyticsUseCases.html) for more details.
 
-### Study types
-
-Can be either:
-
-- `Methods Research` if the study explores a methodological question, for example an evaluation of various propensity score approaches. 
-- `Clinical Application` if the study aims to answer a clinically relevant question, for example 'Does drug A cause outcome B?'.
