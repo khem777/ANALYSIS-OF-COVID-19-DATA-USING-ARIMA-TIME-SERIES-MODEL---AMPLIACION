@@ -4,7 +4,6 @@ ANALISIS DEL COVID 19 - USANDO MODELOS ARIMA DE SERIES DE TIEMPO - AMPLIACIÓN D
 ### Autores
 
 Emmanuel Gutiérrez Jimenez
-
 =================
 
 El artículo original del que nos basamos en este estudio lo puedes descargar en el siguiente link. [Descarga aquí](ANALYSIS_OF_COVID_19_DATA_USING_ARIMA_TIME_SERIES_MODEL.pdf)
