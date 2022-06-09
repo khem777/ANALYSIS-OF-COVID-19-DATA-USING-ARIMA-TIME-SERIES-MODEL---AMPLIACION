@@ -5,9 +5,7 @@ El covid-19 provocó una pandemia que afectó en escala global al mundo desde di
 
 ### Estado del estudio
 
-Choose one of the following options:
-
-| Badge             | Description                          |
+| Estado            | Descripción                          |
 | ----------------- | ------------------------------------ |
 | <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | El estudio ha sido finalizado. | 
 
