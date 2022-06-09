@@ -11,9 +11,13 @@ Choose one of the following options:
 | ----------------- | ------------------------------------ |
 | <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | El estudio ha sido finalizado. | 
 
-### Caso de uso del análisis
+### Palabras claves
 
-- `Series de Tiempo - Modelos ARIMA + Pruebas de Dickey Fuller`
+- `Series de Tiempo`
+- `Modelos ARIMA`
+- `Prueba de Dickey Fuller`
+- `Prueba de raíz unitaria`
+- `Algoritmo`
 
 ### Tipo de estudio
 
