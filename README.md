@@ -17,7 +17,7 @@ Choose one of the following options:
 
 ### Tipo de estudio
 
-- identificación de modelo ARIMA para predecir comportamientos de Series de Tiempo
+Identificación de modelo ARIMA para predecir comportamientos de Series de Tiempo
 
 ### Data
 
