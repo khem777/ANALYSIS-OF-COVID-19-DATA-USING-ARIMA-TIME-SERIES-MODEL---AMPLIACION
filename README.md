@@ -21,8 +21,10 @@ Choose one of the following options:
 
 ### Data
 
-[Descarga aquí la Data](time_series_covid19_global_JHH.csv)
+En esta sección se encuentra la Data necesaria para descargar la Data necesaria para ejecutar el modelo. 
+[Descarga aquí](time_series_covid19_global_JHH.csv)
 
 ### Código fuente - R
 
-[Descarga aquí el código R](AnalisisCovid19_ModeloSeriesTiempo_Arima_Ampliacion.md)
+En esta sección se encuentra el código fuente en R necesario para poder ver el resultado del análisis realizado. 
+[Descarga aquí](AnalisisCovid19_ModeloSeriesTiempo_Arima_Ampliacion.md)
