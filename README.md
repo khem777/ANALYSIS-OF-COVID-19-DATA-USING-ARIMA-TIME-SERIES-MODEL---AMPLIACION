@@ -17,7 +17,7 @@ Choose one of the following options:
 
 ### Tipo de estudio
 
-- identificar el modelo apropiado para una serie de tiempo
+- identificación de modelo ARIMA para predecir comportamientos de Series de Tiempo
 
 ### Código fuente - R
 
