@@ -9,7 +9,7 @@ Choose one of the following options:
 
 | Badge             | Description                          |
 | ----------------- | ------------------------------------ |
-| <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | The protocol and study code have been finalized. | 
+| <img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized"> | El estudio ha sido finalizado. | 
 
 ### Caso de uso del análisis
 
