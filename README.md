@@ -48,8 +48,40 @@ Identificación de modelo ARIMA para predecir comportamientos de Series de Tiemp
 
 ### Data
 
-En esta sección se encuentra la Data necesaria para descargar la Data necesaria para ejecutar el modelo. 
+En esta sección se encuentra la Data necesaria para ejecutar el modelo. 
 [Descarga aquí](time_series_covid19_global_JHH.csv)
+
+La información contiene los casos confirmados de COVID-19 y las muertes por COVID-19 para el periodo desde el 12 de marzo de 2020 hasta el 9 de julio de 2020. Esta información se obtuvo del sitio web oficial de la Universidad Johns Hopkins (Universidad, 2020). Una vez se descargó la Data creó una base de datos de series de tiempo utilizando Microsoft Excel, de tal forma que facilitara el uso de la data en el análisis.
+
+El conjunto de datos abarca información de Turquía, Irán, Francia, Alemania e Italia. Contiene un total de 25 columnas y 121 filas. A continuación se presenta una ampliación de la estructura de la data.
+
+|Columna               |Descripción|
+| -------------------- | ------------------------------------ |
+| ***Fecha:***         |Fecha |
+| ***C_Total:***       |# total de casos acumulados a la fecha de los 5 países seleccionados |
+| ***CPD_Total:***     |# total de casos por día de los 5 países seleccionados |
+| ***C_France:***      |# de casos acumulados a la fecha en Francia |
+| ***CPD_France:***    |# de casos por día en Francia |
+| ***C_Germany:***     |# de casos acumulados a la fecha en Germany |
+| ***CPD_Germany:***   |# de casos por día en Germany |
+| ***C_Iran:***	       |# de casos acumulados a la fecha en Iran |
+| ***CPD_Iran:***	     |# de casos por día en Iran |
+| ***C_Italy:***	     |# de casos acumulados a la fecha en Italy |
+| ***CPD_Italy:***     |# de casos por día en Italy |
+| ***C_Turkey:***	     |# de casos acumulados a la fecha en Turkey |
+| ***CPD_Turkey:***	   |# de casos por día en Turkey |
+| ***M_Total:***	     |# total de muertes acumuladas a la fecha de los 5 países seleccionados |
+| ***MPD_Total:*** 	   |# total de muertes por día de los 5 países seleccionados |
+| ***M_France:***	     |# de muertes acumuladas a la fecha en Francia |
+| ***MPD_France:***	   |# de muertes por día en Francia |
+| ***M_Germany:***	   |# de muertes acumuladas a la fecha en Germany |
+| ***MPD_Germany:***   |# de muertes por día en Germany |	
+| ***M_Iran:***	       |# de muertes acumuladas a la fecha en Iran |
+| ***MPD_Iran:***	     |# de muertes por día en Iran |
+| ***M_Italy:***	     |# de muertes acumuladas a la fecha en Italy |
+| ***MPD_Italy:***	   |# de muertes por día en Italy | 
+| ***M_Turkey:***	     |# de muertes acumuladas a la fecha en Turkey |
+| ***MPD_Turkey:***    |# de muertes por día en Turkey |
 
 ### Código fuente - R
 
