@@ -19,6 +19,10 @@ Choose one of the following options:
 
 - identificación de modelo ARIMA para predecir comportamientos de Series de Tiempo
 
+### Data
+
+[Descarga aquí la Data](time_series_covid19_global_JHH.csv)
+
 ### Código fuente - R
 
-[this page](AnalisisCovid19_ModeloSeriesTiempo_Arima_Ampliacion.md)
+[Descarga aquí el código R](AnalisisCovid19_ModeloSeriesTiempo_Arima_Ampliacion.md)
