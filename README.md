@@ -1,4 +1,4 @@
-ANALISIS DEL COVID 19 - USANDO MODELOS ARIMA DE SERIES DE TIEMPO - AMPLIACIÓN DEL ARTICULO
+Aplicando el procedimiento de la prueba de Dickey Fuller a series de tiempo no estacionarias
 =================
 
 ### Autores
